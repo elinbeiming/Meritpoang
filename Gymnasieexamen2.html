@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gymnasie examen</title>
+    <!--namn på fliken när man öppnar den i en webbläsare-->
+
+    <style media="screen">
+
+      .box{
+        height: 10vh;
+        /*Bestämmer höjden på allt med classen box*/
+      }
+
+      #header{
+        text-align: center;
+        /*Centrerar texten*/
+      }
+
+      #kursDiv{
+        float: left;
+        /*Lägger diven till vänster*/
+        width: 30vw;
+        /*Bestämmer brädden på diven*/
+      }
+
+      #poängDiv{
+        float: left;
+        width: 30vw;
+      }
+
+      #betygDiv{
+        float: right;
+        /*Lägger diven till höger*/
+        width: 30vw;
+      }
+
+      #button{
+        width: 100vw;
+        float: left;
+      }
+
+      #resultat{
+        width: 100vw;
+        height: 30vh;
+        text-align: center;
+        /*Centrerar texten*/
+        float: left;
+        background-color: teal;
+        /*Ändrar bacrundsfärg*/
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="header">
+    <!--Ger diven en id-->
+      <h1>Gymnasieexamen</h1>
+      <!--Skapar sörsta storleken på en rubrik-->
+    </div>
+
+    <div id="kursDiv">
+
+      <div class="box">
+      <!--Ger diven en class-->
+        <form class="kurs" action="index.html" method="post" id="kurs1">
+        <!--Element som använd för att få information från användaren-->
+          Kurs:<br>
+          <input type="text" name="kurs">
+          <!--Skapar en textruta för användaren att skriva i-->
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs2">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs3">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs4">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs5">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs6">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs7">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs8">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs9">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs10">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs11">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs12">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs13">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs14">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs15">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs16">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs17">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs18">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs19">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs20">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs21">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs22">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+      <div class="box">
+        <form class="kurs" action="index.html" method="post" id="kurs23">
+          Kurs:<br>
+          <input type="text" name="kurs">
+        </form>
+      </div>
+
+    </div>
+
+    <div id="poängDiv">
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang1">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng" id="poang1a">
+          <!--Skapar en rullgardins meny-->
+            <option value="0">Ej avslutad</option>
+            <!--Skapar et altenativ i rullgardins menyn-->
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang2">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box" id="poäng3">
+        <form class="poäng" action="index.html" method="post" id="poang3">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang4">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang5">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang6">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang7">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang8">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang9">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang10">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang11">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang12">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang13">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang14">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang15">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box" id="poäng16">
+        <form class="poäng" action="index.html" method="post" id="poang16">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box" id="poäng17">
+        <form class="poäng" action="index.html" method="post" id="poang17">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang18">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang19">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang20">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang21">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang22">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="poang23">
+          kurs Poäng:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="150">150</option>
+          </select>
+        </form>
+      </div>
+    </div>
+
+    <div id="betygDiv">
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg1">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg2" >
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg3">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg4">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg5">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg6">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg7">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg8">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg9">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg10">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg11">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg12">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg13">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg14">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg15">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg16">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg17">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg18">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg19">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg20">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg21">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg22">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+        <form class="poäng" action="index.html" method="post" id="betyg23">
+          Betyg:<br>
+          <select class="poäng" name="poäng">
+            <option value="0">Ej avslutad</option>
+            <option value="0">F</option>
+            <option value="10">E</option>
+            <option value="12.5">D</option>
+            <option value="15">C</option>
+            <option value="17.5">B</option>
+            <option value="20">A</option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <div id="button">
+      <input type="button" onclick="berakna()" value="beräkna" />
+    </div>
+    <div id="resultat">
+      <h2>Resultat</h2>
+      Meritpoäng: <input type="text" name="medel"><br>
+
+    </div>
+
+    <script type="text/javascript">
+      function berakna()
+      //Skapar en funktion som heter berakna
+      {
+          antalKurser = 0;
+	  ackProdukt = 0;
+	  for (i=1; i<24; i++)
+          {
+ 	      if (document.getElementById("kurs" + i.toString())[0].value != "")
+        // Om det finns en kurs inmatad...
+              {
+		  antalKurser++
+      // Så räknar vi upp antal kurser
+
+		  ackProdukt = ackProdukt + document.getElementById("poang" + i.toString())[0].value *
+		                            document.getElementById("betyg" + i.toString())[0].value;
+      // Och adderar poäng * betyg till ackumulerat resultat.
+
+	      }
+          }
+	  medel = ackProdukt / antalKurser;
+          document.getElementsByName("medel")[0].value = medel;
+	  // Bortkommenterad debughjälp
+	  //alert(antalKurser)
+	  //alert(ackProdukt)
+	  //alert(medel)
+      }
+
+    </script>
+
+  </body>
+</html>
